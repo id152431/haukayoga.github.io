@@ -8,8 +8,8 @@ body{
 }
 
 .logo {
-  height: 100px;
-  max-width: 1200px;
+  max-height: 30px;
+  max-width: 600px;
 }
 
 .imagen {
