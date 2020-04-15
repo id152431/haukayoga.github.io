@@ -18,3 +18,11 @@ body{
 p{
   font-size: 22px;
 }
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  color: #71b100
+}
