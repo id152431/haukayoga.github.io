@@ -11,9 +11,11 @@ body{
   max-height: 20px;
   max-width: 200px;
 }
-
+.titulo{
+  color: rgb(9, 13, 179);
+}
 .imagen {
-  height: 400px;
+  height: 350px;
 }
 
 .button_f {
