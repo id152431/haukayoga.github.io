@@ -12,14 +12,14 @@ body{
   max-width: 200px;
 }
 .titulo{
-  color: rgb(9, 13, 179);
+  color: #090db3;
 }
 .imagen {
   height: 350px;
 }
 
 .button_f {
-  height: 100px;
+  height: 80px;
 }
 
 p{
