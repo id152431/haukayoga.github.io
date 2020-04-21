@@ -6,14 +6,19 @@ body{
   /* IMPORTANTE */
   text-align: center;
 }
+img{
+  max-width: 100%;
+}
 
 .logo {
   max-height: 20px;
   max-width: 200px;
 }
+
 .titulo{
   color: #090db3;
 }
+
 .imagen {
   height: 350px;
 }
@@ -31,6 +36,7 @@ a{
   text-decoration: none;
   font-size: 18px;
 }
+
 a:hover {
   color: #71b100
 }
