@@ -25,6 +25,7 @@ h1{
 }
 .logo{
   width: 30rem;
+  padding-left: 1rem;
 }
 
 /** utilidades **/
@@ -64,6 +65,7 @@ h1{
 }
 .contenido-header h1 {
   color: #ffffff;
+  padding-left: 2rem;
   /*padding-bottom: 2rem;*/
   max-width: 100rem;
   /*line-height: 2;*/
