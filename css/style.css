@@ -41,6 +41,9 @@ h1{
 @media(min-width:768px){
   .logo{
     width: 28rem;
+    /*padding-top: 7rem;*/
+  }
+  .barra{
     padding-top: 7rem;
   }
 }
