@@ -12,6 +12,8 @@ body{
   line-height: 2;
 }
 
+/** updated style.css **/
+
 /** globales **/
 img{
   max-width: 100%;
@@ -64,6 +66,7 @@ h1{
   color: #ffffff;
   padding-left: 2rem;
   line-height: 2;
+  margin-bottom: 4rem;
 }
 @media(min-width:768px){
   .contenido-header h1{
