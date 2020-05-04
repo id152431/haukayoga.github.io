@@ -90,6 +90,7 @@ h1{
   padding: 3rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .copyright{
   margin: 0;
@@ -100,5 +101,6 @@ p{
   color: #FFFFFF;
 }
 .facebook{
-  height: 7rem;
+  margin: 7rem;
+  height: 5rem;
 }
