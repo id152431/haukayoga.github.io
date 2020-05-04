@@ -40,8 +40,8 @@ h1{
 /** header **/
 @media(min-width:768px){
   .logo{
-    width: 10rem;
-    padding-top: 5rem;
+    width: 28rem;
+    padding-top: 7rem;
   }
 }
 .site-header.inicio {
