@@ -24,7 +24,7 @@ h1{
   font-size: 2.8rem;
 }
 .logo{
-  width: 30rem;
+  width: 28rem;
   padding-left: 1rem;
 }
 
@@ -41,12 +41,9 @@ h1{
 /** header **/
 @media(min-width:768px){
   .logo{
-    width: 28rem;
+    width: 32rem;
     margin-left: 1rem;
     padding-left: 1rem;
-  }
-  .barra{
-    padding-top: 7rem;
   }
 }
 .site-header.inicio {
@@ -66,15 +63,12 @@ h1{
 .contenido-header h1 {
   color: #ffffff;
   padding-left: 2rem;
-  /*padding-bottom: 2rem;*/
-  max-width: 100rem;
-  /*line-height: 2;*/
+  line-height: 2;
 }
 @media(min-width:768px){
   .contenido-header h1{
     padding-left: 1rem;
     margin-left: 1rem;
-    margin-bottom: 7rem;
   }
 }
 .barra{
