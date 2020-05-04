@@ -18,6 +18,10 @@ body{
 img{
   max-width: 100%;
 }
+a{
+  margin: 0;
+  text-decoration: none;
+}
 .contenedor{
   max-width: 120rem;
   margin: 0 auto;
