@@ -87,7 +87,7 @@ h1{
   margin: 0;
 }
 .contenedor-footer{
-  padding: 3rem 0;
+  padding: 3rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,6 +102,5 @@ p{
   color: #FFFFFF;
 }
 .facebook{
-  margin: 0 1rem 0 1rem;
-  height: 4rem;
+  width: 3rem;
 }
