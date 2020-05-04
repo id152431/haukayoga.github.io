@@ -41,9 +41,10 @@ h1{
 .site-header.inicio {
   background-image: url(../img/header.jpg);
   background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover; /*fuerza a usar el largo y ancho disponible*/
   height: 100vh;/* viewport height */
-  min-height: 60rem; /** = 600px; **/
+  /* min-height: 60rem; /** = 600px; **/
 }
 .contenido-header {
   height: 100%; /** usa el total del espacio disponible de arriba hacia abajo **/
