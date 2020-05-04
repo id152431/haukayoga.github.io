@@ -67,6 +67,11 @@ h1{
   max-width: 100rem;
   /*line-height: 2;*/
 }
+@media(min-width:768px){
+  .contenido-header h1{
+    margin-bottom: 7rem;
+  }
+}
 .barra{
   display: flex;
   justify-content: space-between;
