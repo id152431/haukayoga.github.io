@@ -70,6 +70,7 @@ h1{
 }
 @media(min-width:768px){
   .contenido-header h1{
+    padding-left: 1rem;
     margin-left: 1rem;
     margin-bottom: 7rem;
   }
