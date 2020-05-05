@@ -98,8 +98,9 @@ h1{
 }
 .copyright{
   margin: 0 1rem 0 0;
+  font-weight: 500;
   font-size: 1.4rem
-  color: #FFFFFF;
+  color: #000000;
 }
 .facebook{
   margin: 0;
@@ -107,5 +108,5 @@ h1{
   height: 3rem;
 }
 span{
-  font-weight: 500;
+  font-weight: 700;
 }
