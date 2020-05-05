@@ -48,11 +48,10 @@ h1{
 @media(min-width:768px){
   .logo{
     width: 32rem;
-    margin-left: 1rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
 }
-.site-header .inicio {
+.site-header.inicio {
   background-image: url(../img/header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
