@@ -24,6 +24,7 @@ a{
 }
 .contenedor{
   max-width: 120rem;
+  width: 95%;
   margin: 0 auto;
 }
 h1{
@@ -31,7 +32,6 @@ h1{
 }
 .logo{
   width: 28rem;
-  padding-left: 1rem;
 }
 
 /** utilidades **/
@@ -48,7 +48,6 @@ h1{
 @media(min-width:768px){
   .logo{
     width: 32rem;
-    padding-left: 2rem;
   }
 }
 .site-header.inicio {
@@ -67,14 +66,14 @@ h1{
 .contenido-header h1 {
   /* font-size: 1.9rem; */
   color: #ffffff;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   line-height: 1.2;
   margin-bottom: 7rem;
 }
 @media(min-width:768px){
   .contenido-header h1{
     font-size: 3.8rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     margin-bottom: 4rem;
   }
 }
@@ -91,13 +90,13 @@ h1{
   margin: 0;
 }
 .contenedor-footer{
-  padding: 3rem 1rem;
+  padding: 3rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .copyright{
-  margin: 0 1rem 0 0;
+  margin: 0;
   font-weight: 500;
   font-size: 1.4rem
   color: #000000;
