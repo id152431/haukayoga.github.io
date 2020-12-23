@@ -186,7 +186,7 @@ blockquote{
  overflow: hidden;
 }
 .mobile-menu{
-  font-size: 2rem;
+  font-size: 2.4rem!important;
   color: #ffffff;
   text-align: center;
   display: block;
