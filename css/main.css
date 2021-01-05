@@ -290,6 +290,10 @@ blockquote{
   color: #777;
 }
 .entry-title{ color: #000;}
+.img-border{
+  border: 3px solid #dbdbdb;
+  border-radius: 5px;
+}
 .btn-read a{
   color: #1c9808;
   border: 1.8px solid #1c9808;
