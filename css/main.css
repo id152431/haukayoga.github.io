@@ -108,6 +108,7 @@ a{
 }
 h1{
  font-size: 2.4rem;
+ margin-bottom: 5rem;
 }
 h2{
  font-size: 2.2rem;
@@ -281,8 +282,84 @@ blockquote{
 /* mainSeminarios */
 
 /* mainBlog */
-
-
+.blog-entry{
+  display: block;
+  margin: 7rem auto;
+}
+.gray-text{
+  color: #777;
+}
+.entry-title{ color: #000;}
+.btn-read a{
+  color: #1c9808;
+  border: 1.8px solid #1c9808;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.btn-read a:hover{
+ color: #000;
+ transition: all .5s ease-in-out;
+}
+.separator{
+  content: ' ';
+  display: block;
+  height: .1rem;
+  width: 100%;
+  background-color: #a8a8a8;
+}
+@media(min-width:768px){
+  .blog-entry{
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-entry{
+    flex: 0 0 40%;
+    margin: auto 0;
+  }
+  .short-desc-entry{
+    margin-left: 3rem;
+  }
+  .short-desc-entry h3{
+    margin: 0;
+  }
+}
+.short-desc-entry h3::after{
+  content: '';
+  display: block;
+  width: 21rem;
+  height: 0.3rem;
+  background-color: #a7ff0b;
+}
+/* blog-entries */
+.entry-content{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.entry-content h2{
+  margin: 0;
+}
+@media(min-width:768px){
+  .entry{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  .date-author{
+    flex: 0 0 25%;
+  }
+  .content{
+    border-left: 1px solid #a8a8a8;
+    padding-left: 2rem;
+  }
+}
+.date-author ul{
+  list-style: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0;
+}
 /* mainContacto */
 .contact-us h1{
   padding: 5rem 0;
@@ -291,7 +368,7 @@ blockquote{
   color: #ffffff;
   font-size: 2.4rem;
   padding: 1.2rem 2rem;
-  background-color: #1c9808;
+  background-color: #22b909;
   border: solid 3px #216c15;
   border-radius: 9px;
   display: inline-block;
