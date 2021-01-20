@@ -117,6 +117,7 @@ h3{
  font-size: 2rem;
 }
 span{font-weight: bold;}
+.italic{font-style: italic;}
 .container{
  max-width: 120rem;
  width: 95%;
@@ -323,6 +324,7 @@ blockquote{
     margin: auto 0;
   }
   .short-desc-entry{
+    flex: 0 0 60%;
     margin-left: 3rem;
   }
   .short-desc-entry h3{
@@ -364,6 +366,10 @@ blockquote{
   font-weight: bold;
   padding: 0;
 }
+.bibliografia h4{
+  font-size: 1.4rem;
+}
+.bibliografia p{font-size: 1.2rem;}
 /* mainContacto */
 .contact-us h1{
   padding: 5rem 0;
