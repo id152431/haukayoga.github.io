@@ -235,7 +235,7 @@ blockquote{
 /* mainGlobal */
 .main-content{
   margin: 10rem auto 7rem auto;
-  max-width: 98rem;
+  max-width: 90rem;
 }
 @media(min-width:768px) {
   .main-content {
@@ -337,7 +337,7 @@ blockquote{
     margin: auto 0;
   }
   .short-desc-entry{
-    flex: 0 0 60%;
+    flex: 0 0 calc(60% - 3rem);
     margin-left: 3rem;
   }
   .short-desc-entry h3{
